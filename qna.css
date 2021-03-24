@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @keyframes fadein {
     to {
         opacity: 1;
@@ -38,22 +44,42 @@ body {
 	justify-content: center;
     align-items: center;
     overflow-x: hidden;
-    font-family: "RIDIBatang";
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 header {
     position: fixed;
-    border-bottom: 1px solid black;
     top: 0;
     left: 0;
     right: 0;
     height: 90px;
     padding: 1rem;
-    background: white;
+    color: white;
     z-index: 10;
+    background: white;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 5px 5px 30px 5px #D7D4D4;
+}
+#logo {
+    margin-left: 61px;
+    height: 60px;
+    width: 127px;
+    background-image: url("image/logo.png");
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    float: right;
+    text-align: center;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
 }
 .nav li {
     height: 40px;
@@ -70,6 +96,7 @@ header {
     height: 720px;
     width: 1740px;
     align-items: center;
+    font-family: "RIDIBatang";
 }
 .content {
 	position: absolute;
@@ -81,6 +108,7 @@ header {
 }
 .content h3 {
 	font-size: 50px;
+    font-family: 'InfinitySans-BoldA1';
 }
 .Q {
 	opacity: 0;

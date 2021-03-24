@@ -1,0 +1,186 @@
+body {
+    background-image: url("image/main.jpg");
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    padding: 1rem;
+    color: white;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 61px;
+    height: 60px;
+    width: 127px;
+    background-image: url("image/logo.png");
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    float: right;
+    text-align: center;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+
+a:link {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #072bff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #072bff;
+    text-decoration: none;
+}
+
+#main {
+    height: 100vh%;
+    width: 100vh%;
+    overflow: hidden;
+    margin-top: 170px;
+}
+
+.section {
+    margin-right: 400px;
+    margin-top: 270px;
+    float: right;
+}
+
+.section p {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'InfinitySans-BoldA1';
+    font-size: 40px;
+     color: white;
+}
+
+.line {
+    margin: 0 auto;
+    margin-left: 300px;
+    padding-right: 0px;
+    width: 625px;
+    height: 720px;
+}
+
+.bmc {
+    margin: 0 auto;
+    padding-top: 5px;
+    height: 100vh%;
+    width: 100vh%;
+}
+.bmc h1 {
+    font-family: 'GmarketSansBold';
+    font-size: 200px;
+    transition: all 3s ease;
+    color: white;
+
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#sub {
+    margin-left: 200px;
+}
+#sub p{
+    color: white;
+    margin-right: 400px;
+    font-size: 20px;
+    float: right;
+    margin-left: 20%;
+    font-family: 'GmarketSansBold';
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    /* Firefox */
+    -webkit-animation: fadein 3s;
+    /* Safari and Chrome */
+    -o-animation: fadein 3s;
+    /* Opera */
+}
+.section p {
+    display: inline-block;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    /* Firefox */
+    -webkit-animation: fadein 3s;
+    /* Safari and Chrome */
+    -o-animation: fadein 3s;
+    /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

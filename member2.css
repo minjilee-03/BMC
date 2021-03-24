@@ -1,0 +1,133 @@
+body{background-color:  #FBF9F9;}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    padding: 1rem;
+    color: white;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 30px 5px #D7D4D4;
+}
+
+#logo {
+    margin-left: 61px;
+    height: 60px;
+    width: 129px;
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    float: right;
+    text-align: center;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+a:link {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #072bff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #072bff;
+    text-decoration: none;
+}
+.conteiner{
+background-color: white;
+}
+#main{
+    margin-left: 100px;
+     margin-right: 100px;
+    margin-top: 170px;
+    padding-right: 150px;
+}
+
+.section{
+    width: 400px;
+    height: 600px;
+    margin-left: 100px;
+    float: right;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: 5px 5px 50px 5px #D7D4D4;
+    border-radius: 30px;
+}
+.hi{
+     font-family: 'InfinitySans-BoldA1';
+     font-size: 50px;
+     text-align: center;
+     float: center;
+     margin-left: 100px;
+    color: #072bff;
+}
+.img{
+    border-radius :30px;
+}
+#logo {
+    margin-left: 61px;
+    height: 60px;
+    width: 127px;
+    background-image: url("image/logo.png");
+}
+.facebook{
+    font-family: 'InfinitySans-BoldA1';
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+.pr{
+    width:100%;
+    height: 200px;
+}
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.two{
+    font-family: 'InfinitySans-BoldA1';
+    width: 100%
+    font-size: 50px;
+    margin-left: 1400px;
+}
+.three{
+    font-family: 'InfinitySans-BoldA1';
+     width: 100%
+    font-size: 50px;
+    margin-left: 50px;
+}
+.ment{
+    color: #072bff;
+    margin-top: 50px;
+    font-family: 'InfinitySans-BoldA1';
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    margin-bottom: 0px;
+}
+.class{
+     font-family: 'InfinitySans-BoldA1';
+     font-size: 30px;
+     text-align: center;
+     float: center;
+}

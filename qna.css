@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+	to {
+        opacity: 1;
+    }	
+}
+@-webkit-keyframes fadein {
+	to {
+        opacity: 1;
+    }	
+}
+@-o-keyframes fadein {
+	to {
+        opacity: 1;
+    }	
+}
+html {
+	display: grid;
+}
+body {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    font-family: "RIDIBatang";
+}
+header {
+    position: fixed;
+    border-bottom: 1px solid black;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    padding: 1rem;
+    background: white;
+    z-index: 10;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav li {
+    height: 40px;
+    list-style: none;
+    margin: auto;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+.main{
+    height: 720px;
+    width: 1740px;
+    align-items: center;
+}
+.content {
+	position: absolute;
+	width: 700px;
+	height: 100%;
+	top: 170px;
+	left: 50%;
+	margin-left: -350px;
+}
+.content h3 {
+	font-size: 50px;
+}
+.Q {
+	opacity: 0;
+	position: absolute;
+  	padding: 20px;
+  	right: 0;
+  	width: 50%;
+  	float: right;
+  	height: 100%;
+  	color: white;
+}
+.Q.one {
+	width: 30%;
+	height: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 15px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-fill-mode: forwards;
+}
+.Q.two {
+	width: 23%;
+	height: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 205px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+.Q.three {
+	width: 15%;
+	height: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 355px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.Q.four {
+	width: 27%;
+	height: 20px;
+    background-color: gray;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 510px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+.A {
+	opacity: 0;
+  	position: absolute;
+  	left: 0;
+  	width: 50%;
+  	height: 100%;
+  	padding: 20px;
+}
+.A.one {
+	width: 50%;
+	height: 60px;
+    line-height: 20px;
+    background-color: pink;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 90px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+}
+.A.two {
+	width: 53%;
+	height: 20px;
+	line-height: 25px;
+    background-color: pink;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 280px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+}
+.A.three {
+	width: 50%;
+	height: 20px;
+    background-color: pink;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 430px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+}
+.A.four {
+	width: 50%;
+	height: 20px;
+    background-color: pink;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 580px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+}

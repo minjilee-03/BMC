@@ -50,22 +50,27 @@ a:active {
     text-decoration: none;
 }
 .conteiner{
-background-color: white;
+    background-color: white;
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
 }
 #main{
-    margin-left: 100px;
-     margin-right: 100px;
+    width: 1200px;
+    margin-left: 180px;
+    margin-right: 100px;
     margin-top: 170px;
     padding-right: 150px;
+    align-items: center;
 }
 
 .section{
-    width: 400px;
-    height: 600px;
-    margin-left: 100px;
+    width: 300px;
+    height: 500px;
+    margin-left: 40px;
     float: right;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     box-shadow: 5px 5px 50px 5px #D7D4D4;
     border-radius: 30px;
 }
@@ -74,7 +79,7 @@ background-color: white;
      font-size: 50px;
      text-align: center;
      float: center;
-     margin-left: 100px;
+     margin-left: 150px;
     color: #072bff;
 }
 .img{
@@ -91,7 +96,7 @@ background-color: white;
     font-size: 20px;
     text-align: center;
     float: center;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-bottom: 0px;
 }
 .pr{
@@ -104,11 +109,15 @@ background-color: white;
     font-weight: normal;
     font-style: normal;
 }
+.year {
+    width: 100%;
+    display: inline-block;
+}
 .two{
     font-family: 'InfinitySans-BoldA1';
+    margin-left: 230px;
     width: 100%
     font-size: 50px;
-    margin-left: 1400px;
 }
 .three{
     font-family: 'InfinitySans-BoldA1';

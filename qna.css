@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@keyframes fadein {
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein {
+	to {
+        opacity: 1;
+    }	
+}
+@-webkit-keyframes fadein {
+	to {
+        opacity: 1;
+    }	
+}
+@-o-keyframes fadein {
+	to {
+        opacity: 1;
+    }	
+}
+html {
+	display: grid;
+}
+body {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:link {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2E2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #072bff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #072bff;
+    text-decoration: none;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    padding: 1rem;
+    color: white;
+    z-index: 10;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 30px 5px #D7D4D4;
+}
+#logo {
+    margin-left: 61px;
+    height: 60px;
+    width: 127px;
+    background-image: url("image/logo.png");
+}
+
+li {
+    list-style: none;
+    margin: auto;
+    float: right;
+    text-align: center;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+.nav li {
+    height: 40px;
+    list-style: none; 
+    margin: auto;
+    float: right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 27px;
+    margin-left: 27px;
+    font-size: 20px;
+}
+.main{
+    height: 720px;
+    width: 1740px;
+    align-items: center;
+    font-family: "RIDIBatang";
+}
+.content {
+	position: absolute;
+	width: 700px;
+	height: 100%;
+	top: 170px;
+	left: 50%;
+	margin-left: -350px;
+}
+.content h3 {
+	font-size: 50px;
+    font-family: 'InfinitySans-BoldA1';
+    color: #072bff;
+}
+.Q {
+	opacity: 0;
+	position: absolute;
+  	padding: 20px;
+  	right: 0;
+  	width: 50%;
+  	float: right;
+  	height: 100%;
+  	color: white;
+}
+.Q.one {
+	width: 30%;
+	height: 20px;
+    background-color: #072bff;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 15px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-fill-mode: forwards;
+}
+.Q.two {
+	width: 23%;
+	height: 20px;
+    background-color: #072bff;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 205px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+.Q.three {
+	width: 15%;
+	height: 20px;
+    background-color: #072bff;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 355px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.Q.four {
+	width: 27%;
+	height: 20px;
+    background-color: #072bff;
+    border-radius: 15px;
+    border-bottom-right-radius: 0px;
+    margin-top: 510px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+.A {
+	opacity: 0;
+  	position: absolute;
+  	left: 0;
+  	width: 50%;
+  	height: 100%;
+  	padding: 20px;
+}
+.A.one {
+	width: 50%;
+	height: 60px;
+    line-height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 90px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 0.25s;
+    animation-fill-mode: forwards;
+}
+.A.two {
+	width: 53%;
+	height: 20px;
+	line-height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 280px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 0.75s;
+    animation-fill-mode: forwards;
+}
+.A.three {
+	width: 50%;
+	height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 430px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1.25s;
+    animation-fill-mode: forwards;
+}
+.A.four {
+	width: 50%;
+	height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    margin-top: 580px;
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    -webkit-animation: fadein 1s;
+    -o-animation: fadein 1s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+}
